@@ -1,0 +1,25 @@
+{
+  "name": "trello-power-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/html/*.html"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeroState/trello_pw_up.git"
+  },
+  "author": "Hero State",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HeroState/trello_pw_up/issues"
+  },
+  "homepage": "https://github.com/HeroState/trello_pw_up#readme"
+}
