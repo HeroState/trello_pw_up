@@ -17,12 +17,12 @@ var onBtnClick = function (t, opts) {
     console.log('Someone clicked the button');
     t.popup({
         type: 'confirm',
-        title: String,
-        message: String,
-        confirmText: String,
+        title: 'confirm',
+        message: 'confirm',
+        confirmText: 'confirm',
         onConfirm: function(t1, opts){},
         // confirmStyle?: 'primary' | 'danger',
-        // cancelText?: String,
+        // cancelText: String,
         // onCancel?: function(t, opts){},
       })
   };
