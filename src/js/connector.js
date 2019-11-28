@@ -20,10 +20,14 @@ var onBtnClick = function (t, opts) {
         title: 'confirm',
         message: 'confirm',
         confirmText: 'confirm',
-        onConfirm: function(t1, opts){},
-        // confirmStyle?: 'primary' | 'danger',
-        // cancelText: String,
-        // onCancel?: function(t, opts){},
+        onConfirm: function(t1, opts) { 
+            console.log("confirmed") 
+        } ,
+        confirmStyle: 'primary',
+        cancelText: "Calcel",
+        onCancel: function(t, opts){
+            console.log("Canceled") 
+        },
       })
   };
   
