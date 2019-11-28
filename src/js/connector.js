@@ -15,5 +15,15 @@ window.TrelloPowerUp.initialize({
 
 var onBtnClick = function (t, opts) {
     console.log('Someone clicked the button');
+    t.popup({
+        type: 'confirm',
+        title: String,
+        message: String,
+        confirmText: String,
+        onConfirm: function(t1, opts){},
+        // confirmStyle?: 'primary' | 'danger',
+        // cancelText?: String,
+        // onCancel?: function(t, opts){},
+      })
   };
   
