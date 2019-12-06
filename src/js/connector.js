@@ -8,12 +8,10 @@ window.TrelloPowerUp.initialize({
             dark: 'https://cdn.glitch.com/1b42d7fe-bda8-4af8-a6c8-eff0cea9e08a%2Frocket-ship.png?1494946700421',
             light: 'https://cdn.glitch.com/1b42d7fe-bda8-4af8-a6c8-eff0cea9e08a%2Frocket-ship.png?1494946700421'
           },
-        //   text: 'Burn Down Chart',
-        //   url: 'chart.html',
-        //   condition: 'edit',
-        //   target: 'Inspiring Boards',
-          text: "My Board Button",
-          callback: function(t) { console.log('clicked')}
+          text: 'Burn Down Chart',
+          url: 'chart.html',
+          condition: 'edit',
+          target: 'Burn Down Chart',
 
         }
         , 
