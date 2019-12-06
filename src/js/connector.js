@@ -10,7 +10,7 @@ window.TrelloPowerUp.initialize({
           },
           text: 'Burn Down Chart',
           url: 'chart.html',
-          condition: 'edit',
+          condition: 'always',
           target: 'Burn Down Chart',
 
         }
