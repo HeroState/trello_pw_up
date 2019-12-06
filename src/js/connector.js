@@ -13,7 +13,7 @@ window.TrelloPowerUp.initialize({
         //   condition: 'edit',
         //   target: 'Inspiring Boards',
           text: "My Board Button",
-          callback: function(t) { console.log('clicked')
+          callback: function(t) { console.log('clicked')}
 
         }
         , 
