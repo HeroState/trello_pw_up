@@ -16,7 +16,7 @@ window.TrelloPowerUp.initialize({
             callback: function(t){
               return t.popup({
                 title: "Burn Down Chart",
-                url: '../html/chart.html'
+                url: 'chart.html'
               });
             }
           }
